@@ -1,3 +1,3 @@
-import {attachEvents} from './components/store.js'
+import {cartStuff} from './components/store.js'
 
-attachEvents();
+cartStuff();

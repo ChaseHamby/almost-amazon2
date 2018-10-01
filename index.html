@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="card" style="width: 18rem;">
-          <a href="#" class="btn btn-primary"id="buyButton">Add to Cart</a>
+
+    <div class="col-4 offset-md-4">
+        <img class="col" src="https://images-na.ssl-images-amazon.com/images/I/81BM9BDGCUL.jpg">
+        <p class="price d-flex justify-content-center" id="price">$14.99</p>
+        <button type="button" class="col btn btn-dark" id="addButton">Add To Cart</button>
     </div>
 
     <div id="cart"></div>
@@ -20,6 +23,6 @@
     <script src="./javascripts/helpers/util.js" type="module"></script>
     <script src="./javascripts/components/cart.js" type="module"></script>
     <script src="./javascripts/components/store.js" type="module"></script>
-    <script src="./javascripts/main.js"></script>
+    <script src="./javascripts/main.js" type="module"></script>
 </body>
 </html>
