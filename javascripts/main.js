@@ -1,1 +1,3 @@
-console.log('hi');
+import {attachEvents} from './components/store.js'
+
+attachEvents();
