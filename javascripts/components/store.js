@@ -11,7 +11,7 @@ const book = {
 const addCart = document.getElementById('addButton');
 
 let cartStuff = () => {
- addCart.addEventListener('click', function () {
+ addCart.addEventListener('click', function (e) {
     bookStringBuilder();
     })
 };
