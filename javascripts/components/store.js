@@ -1,4 +1,5 @@
-import {bookStringBuilder} from '../components/cart.js'
+import {bookStringBuilder} from './cart.js'
+import {printToDom} from '../helpers/util.js'
 
 const book = {
     title: "Falling Up",
@@ -7,16 +8,16 @@ const book = {
     description: "Cute book full of short stories and poems."
     };
 
-const addCart = document.getElementById('buyButton');
+const addCart = document.getElementById('addButton');
 
-const addBook = () => {
-    addCart.addEventListener('click', () => {
-        bookStringBuilder();
+let cartStuff = () => {
+ addCart.addEventListener('click', function () {
+    bookStringBuilder();
     })
 };
 
-const attachEvents = () => {
-    addBook();
-}
+cartStuff();
 
-export {book, attachEvents}
+
+
+export {book, cartStuff}
