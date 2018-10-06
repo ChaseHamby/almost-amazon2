@@ -5,6 +5,10 @@ Build an almost amazon page where you add a book to your cart and it appears in 
 ## Screenshots
 <img width="1066" alt="screen shot 2018-10-01 at 6 29 08 pm" src="https://user-images.githubusercontent.com/16019344/46323422-ce8d8880-c5b3-11e8-85cc-b766a205ddb8.png">
 
+## Details
+
+- As a user, I should be able to see the book on the page. When I click on the Add to Cart button, the book should be added to a small cart image off to the right of the book.
+
 ## How to run this project
 * Use npm to install http-server in your terminal: 
 ```sh
